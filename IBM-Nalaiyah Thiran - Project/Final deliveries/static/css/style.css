@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;  
+    font-family: sans-serif;  
+   
+}
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navabar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style:none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    width: 850px;
+    height: 400px;
+    background-color: transparent;
+    padding: auto;
+    margin:auto;
+    border-radius: 30px;
+    background-color: cornsilk;
+    margin-top: 10%;
+    
+
+}
+.row .col-1 h1 {
+    align-content: center;
+    justify-content: center;
+
+}
+.row .col-1 button {
+    background-color:purple;
+    color: white;
+    align-items: center;
+}
+.col-1 {
+    flex-basis: 40%;
+    position: absolute;
+    
+}
+.col-1 h2 {
+    font-size: 54px;
+    color: purple;
+    font-weight: 100;
+    margin: 20px 0 10px;
+
+}
+.col-1 h3 {
+    font-size: 30px;
+    
+}
+button {
+    width:140px;
+    border:0;
+    padding: 12px 10px;
+    outline: none;
+    color: blueviolet;
+    background-color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+button:hover a {
+    display: block;
+}
+
+button:hover {
+    width : 160px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+.col-2 {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: justify;
+
+}
+
+.col-2 .bgimg {
+    width: 90%;
+
+}
